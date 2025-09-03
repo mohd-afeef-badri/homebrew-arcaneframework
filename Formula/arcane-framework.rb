@@ -1,10 +1,8 @@
 class ArcaneFramework < Formula
   desc "HPC framework for numerical simulations"
   homepage "https://github.com/arcaneframework/framework"
-  url "https://github.com/arcaneframework/framework/archive/fdded890205c920bfb1e3f3df471627b3ad154a6.tar.gz"
-  sha256 "3a2be6a217d3e27bc8aa1d43976b1336474bba1583ab1b26311ac702a846b64a"
+  head "https://github.com/arcaneframework/framework.git", branch: "main", submodules: true
   license "Apache-2.0"
-  head "https://github.com/arcaneframework/framework", branch: "main"
 
   depends_on "cmake" => :build
   depends_on "ninja" => :build
