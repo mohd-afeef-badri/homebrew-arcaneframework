@@ -22,6 +22,7 @@ class ArcaneFramework < Formula
     ENV["CC"] = "gcc-15"
     ENV["CXX"] = "g++-15"
     ENV["OMPI_MCA_rmaps_base_oversubscribe"] = "true"
+    ENV.append "CXXFLAGS", "-Wno-error"
 
     args = %W[
       -DCMAKE_VERBOSE_MAKEFILE=TRUE
