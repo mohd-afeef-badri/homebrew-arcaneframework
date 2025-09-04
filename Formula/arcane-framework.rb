@@ -10,6 +10,7 @@ class ArcaneFramework < Formula
   depends_on "hdf5-mpi"
   depends_on "scotch"
   depends_on "petsc"
+  depends_on "mohd-afeef-badri/arcaneframework/hypre-int32"
   depends_on "zstd"
   depends_on "dotnet" => :optional
 
