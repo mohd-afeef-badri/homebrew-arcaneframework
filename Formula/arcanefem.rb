@@ -37,5 +37,6 @@ class Arcanefem < Formula
 
     system "cmake", "-S", ".", "-B", "build", *args
     system "cmake", "--build", "build", "--parallel"
+    prefix.install Dir["build/*"]
   end
 end
