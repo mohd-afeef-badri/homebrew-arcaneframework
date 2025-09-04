@@ -10,7 +10,7 @@ class HypreInt32 < Formula
   revision 1
   head "https://github.com/hypre-space/hypre.git", branch: "master"
 
-  bottle :unneeded
+  bottle :disabled, "Custom 32-bit integer build"
 
   livecheck do
     url :stable
