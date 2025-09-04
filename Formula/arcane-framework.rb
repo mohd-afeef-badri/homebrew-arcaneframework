@@ -33,7 +33,6 @@ class ArcaneFramework < Formula
       -DCMAKE_CXX_COMPILER=g++-15
       -DCMAKE_C_COMPILER=gcc-15
       -DARCANE_ENABLE_DOTNET_WRAPPER=OFF
-      -DCMAKE_DISABLE_FIND_PACKAGE_Hypre=TRUE
       -DCMAKE_DISABLE_FIND_PACKAGE_VTK=TRUE
       -G Ninja
     ]
