@@ -1,4 +1,4 @@
-class ArcaneFem < Formula
+class Arcanefem < Formula
   desc "HPC finite element solver"
   homepage "https://github.com/arcaneframework/arcanefem"
   head "https://github.com/arcaneframework/arcanefem.git", branch: "main", using: :git, shallow: false
